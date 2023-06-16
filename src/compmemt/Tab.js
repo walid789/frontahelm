@@ -73,7 +73,8 @@ fetch('http://localhost:5000/users')
   }, []);
 
     return (
-        <div>
+        <div> 
+          <h1 className='text-center my-4'> the request of user pro</h1>
             <table class="table">
   <thead>
     <tr>
